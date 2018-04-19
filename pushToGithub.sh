@@ -20,4 +20,4 @@ git init
 git remote add origin https://github.com/aallen170/ad332_project4.git
 git add .
 git commit -m "$subject"
-git push -u origin andrew
+git push -u origin master
