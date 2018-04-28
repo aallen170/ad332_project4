@@ -22,5 +22,10 @@ while true; do
 	git add .
 	git commit -m "$subject"
 	git push -u origin master
-	sleep 600
+	for (( i=0; i <= 600; --i ))
+	do
+		seconds=$i
+		minutes=$(($i%10))
+		echo $minutes minutes and $seconds seconds until next push
+	done
 done
