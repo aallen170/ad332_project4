@@ -26,7 +26,7 @@ while true; do
 	do
 		clear
 		seconds=$(($i%60))
-		minutes=$(($i/100))
+		minutes=$(($i/60))
 		echo $minutes minutes and $seconds seconds until next push
 		sleep 1
 	done
