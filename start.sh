@@ -2,4 +2,3 @@
 open test_website2.muse
 osascript newTerminalWindow.scpt
 ./repeatedlyPushToGithub.sh
-osascript museAutoSave.scpt
