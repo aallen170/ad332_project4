@@ -22,7 +22,7 @@ while true; do
 	git add .
 	git commit -m "$subject"
 	git push -u origin master
-	for (( i=0; i <= 600; --i ))
+	for (( i=600; i >= 0; --i ))
 	do
 		seconds=$i
 		minutes=$(($i%10))
