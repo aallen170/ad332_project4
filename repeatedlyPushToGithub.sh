@@ -27,5 +27,6 @@ while true; do
 		seconds=$i
 		minutes=$(($i%10))
 		echo $minutes minutes and $seconds seconds until next push
+		sleep 1
 	done
 done
